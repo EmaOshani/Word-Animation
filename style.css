@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppons' , sans-serif;
+    box-sizing: border-box;
+
+}
+
+.hero{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url('https://th.bing.com/th/id/R.9d2d7c7ce2f87ac87c0f5222f7bf9daa?rik=V4RyOSnYBEBDnw&riu=http%3a%2f%2f4.bp.blogspot.com%2f-oCzQMIjuZjw%2fUZJk4-l863I%2fAAAAAAAAQIM%2fR9kfvI6xPA4%2fs1600%2fBlack%2bColor%2bWallpapers%2b%2b4.jpg&ehk=SKx0HOu9i4TlOVXCY1PBHnHYR%2byJ7jv8xe62FJf%2b0B4%3d&risl=&pid=ImgRaw&r=0');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.title{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 160px;
+    /* -webkit-text-stroke: 1px #fff; */
+    color: transparent;
+    background-image: linear-gradient(#fff, #fff);
+    background-repeat: no-repeat;
+    -webkit-background-clip: text;
+    background-position: -750px 0;
+    animation: backcolor 5s linear infinite alternate;
+
+
+}
+
+@keyframes backcolor{
+    100%{
+        background-position: 0 0;
+    }
+}
